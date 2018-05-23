@@ -1,9 +1,11 @@
 /*******************************************************
 *Title: detect_internet.h
 *Author: Glenn Upthagrove
-*Date: 01/30/18
+*Date: 05/22/18
 *Description: A simple test for internet connectivity
 *******************************************************/
+#ifndef _DETECT_NET
+#define _DETECT_NET
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -91,4 +93,4 @@ int	detect_internet_connection(){
 	}
 	return con;
 }
-
+#endif
