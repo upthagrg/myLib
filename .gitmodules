@@ -1,0 +1,3 @@
+[submodule "https:/github.com/upthagrg/myLib"]
+	path = https:/github.com/upthagrg/myLib
+	url = https://github.com/upthagrg/cgarbage

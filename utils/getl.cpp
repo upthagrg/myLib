@@ -15,7 +15,7 @@ int main(int argc, char** argv){
 	bool clean = false;
 	int i=1;
 	if(argc<2){
-		cout << "USAGE: ./getl <arg> ... <file name>" << endl;
+		cout << "USAGE: getl <arg> ... <file name>" << endl;
 		return 1; //error code
 	}
 	for(i; i<argc-1; i++){
